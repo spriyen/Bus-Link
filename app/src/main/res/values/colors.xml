@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#C7BBBA</color>
+    <color name="lavender">#9377C5</color>
+    <color name="colorAccent">#FF027CFF</color>
+    <color name="bottom_navigation_icon_selected">@android:color/black</color>
+    <color name="bottom_navigation_icon_default">@android:color/darker_gray</color>
+</resources>

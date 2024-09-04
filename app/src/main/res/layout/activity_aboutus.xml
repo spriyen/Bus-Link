@@ -1,0 +1,75 @@
+<!-- res/layout/activity_about_us.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:background="#F2F2F2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textColor="#333333" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to RoadLink, your go-to solution for convenient and efficient transportation!"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carpooling Functionality:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#333333" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our app simplifies the process of carpooling by allowing drivers to easily add their rides, and passengers to seamlessly find available rides. Passengers can search for rides based on their desired locations and book a ride with just a few taps."
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus Tracking Functionality:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#333333" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experience hassle-free bus tracking with our app. Passengers can track the real-time location of buses, ensuring they are always aware of the current status and location of their ride."
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trademark © 2024 RoadLink. All Rights Reserved."
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:gravity="end"
+        android:textColor="#999999" />
+
+</LinearLayout>

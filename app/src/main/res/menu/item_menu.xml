@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="home"
+        android:icon="@drawable/ic_home_black" />
+    <item android:id="@+id/car_pool"
+        android:title="car pooling"
+        android:icon="@drawable/ic_car_black" />
+    <item android:id="@+id/bus_track"
+        android:title="bus tracking"
+        android:icon="@drawable/ic_bus_black" />
+    <item android:id="@+id/friend_loc"
+        android:title="friend_location"
+        android:icon="@drawable/ic_location_black"/>
+    <item android:id="@+id/user_profile"
+        android:title="user profile"
+        android:icon="@drawable/ic_user_black"/>
+</menu>

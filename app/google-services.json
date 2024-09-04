@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "630202744976",
+    "project_id": "roadlink-da3b4",
+    "storage_bucket": "roadlink-da3b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630202744976:android:c6332c5c41f4a8604b9815",
+        "android_client_info": {
+          "package_name": "com.example.roadlink4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQqqqgFY_Nr6epXvjj3mZGMtTs7YDs7V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

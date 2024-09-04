@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPilotName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilot Name:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        tools:ignore="HardcodedText"/>
+
+    <EditText
+        android:id="@+id/editTextPilotName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pilot's name"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCarBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Brand:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        tools:ignore="HardcodedText"/>
+
+    <EditText
+        android:id="@+id/editTextCarBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter car brand"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Model:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        tools:ignore="HardcodedText"/>
+
+    <EditText
+        android:id="@+id/editTextCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter car model"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCarRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Registration Number:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        tools:ignore="HardcodedText"/>
+
+    <EditText
+        android:id="@+id/editTextCarRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter car registration number"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textViewStartingPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pickup Location"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        tools:ignore="HardcodedText"/>
+
+    <EditText
+        android:id="@+id/editTextStartingPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Leaving from?"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textViewDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drop of Location"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        tools:ignore="HardcodedText"/>
+
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Where to?"
+        android:padding="16dp" />
+
+
+</LinearLayout>

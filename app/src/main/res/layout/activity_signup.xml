@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    tools:context=".signup">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:hint="Name"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:hint="Age"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAge"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:hint="Phone Number"
+        android:padding="12dp"
+        android:inputType="phone"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="Sign Up"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+</RelativeLayout>
